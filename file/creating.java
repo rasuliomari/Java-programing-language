@@ -4,10 +4,10 @@ import java.io.IOException;
 public class creating {
     public static void main(String[] args) {
         // Specify the file path
-        String filePath = "new.txt";
+        String filename= "new.txt";
 
         // Create the file object
-        File file = new File(filePath);
+        File file = new File(filename);
 
         try {
             // Create the file
@@ -18,7 +18,7 @@ public class creating {
             }
         } catch (IOException e) {
             System.out.println("An error occurred while creating the file.");
-            e.printStackTrace();
+           
         }
     }
 }
